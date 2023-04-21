@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --background-colour: #242424;
+  --background-colour: #1c1c1c;
   --text-colour: #d6d6d6;
 }
 
@@ -16,4 +16,9 @@ body {
   margin: 0;
   font-family: 'Rubik', sans-serif;
   background-color: var(--background-colour);
+}
+
+h1{
+  font-size: 2rem;
+  font-weight: 700;
 }
